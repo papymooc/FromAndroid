@@ -15,7 +15,7 @@ public class AuthActivity extends AppCompatActivity {
   public String getJeton() {
     SharedPreferences prefs = getSharedPreferences("UserToken", MODE_PRIVATE);
     // Fait tous les contrôles puis, si c'est bon ...
-    // alors il fait le return ci dessous, sinon, il faudrait prévoir un autre return
+    // alors il fait le return ci dessous, sinon, il faudra prévoir un autre return
     return "LeBonJeton";
   }
 }
