@@ -14,7 +14,7 @@ public class AuthActivity extends AppCompatActivity {
   }
   public String getJeton() {
     SharedPreferences prefs = getSharedPreferences("UserToken", MODE_PRIVATE);
-    // Fait tous les contrôles puis, si c'est bon selon android...
+    // Fait tous les contrôles puis, si c'est bon ...
     return "LeBonJeton";
   }
 }
